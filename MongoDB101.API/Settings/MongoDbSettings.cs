@@ -2,8 +2,8 @@
 {
     public class MongoDbSettings : IDbSettings
     {
-        public string ConnectionString { get => throw new System.NotImplementedException(); set => throw new System.NotImplementedException(); }
-        public string Database { get => throw new System.NotImplementedException(); set => throw new System.NotImplementedException(); }
-        public string Collection { get => throw new System.NotImplementedException(); set => throw new System.NotImplementedException(); }
+        public string ConnectionString { get; set ; }
+        public string Database { get; set ; }
+        public string Collection { get ; set ; }
     }
 }
